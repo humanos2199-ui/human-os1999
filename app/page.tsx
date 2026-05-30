@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden">
-      
-      {/* Glow Background */}
+
+      {/* BACKGROUND GLOW */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 w-[600px] h-[600px] -translate-x-1/2 -translate-y-1/2 bg-cyan-500/20 blur-[120px] rounded-full animate-pulse" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05)_0%,transparent_70%)]" />
@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-6">
-        
+
         <p className="text-cyan-400 tracking-widest text-sm mb-4">
           HUMAN OS
         </p>
@@ -28,12 +28,13 @@ export default function Home() {
           <button className="px-6 py-3 bg-white text-black rounded-full font-semibold hover:scale-105 transition">
             Start Free
           </button>
+
           <button className="px-6 py-3 border border-white/30 rounded-full hover:bg-white/10 transition">
             Watch Demo
           </button>
         </div>
 
-        {/* Floating Core */}
+        {/* FLOATING CORE */}
         <div className="absolute bottom-10 w-64 h-64 bg-gradient-to-tr from-cyan-500/30 to-purple-600/30 rounded-full blur-3xl animate-pulse" />
       </section>
 
@@ -89,8 +90,9 @@ export default function Home() {
       {/* CTA */}
       <section className="py-32 text-center px-6">
         <h2 className="text-4xl font-bold">
-          The Future Doesn't Wait.
+          {"The Future Doesn't Wait."}
         </h2>
+
         <p className="text-gray-400 mt-4">
           Join Human OS Today.
         </p>
